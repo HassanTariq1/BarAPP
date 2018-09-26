@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_below="@+id/relativeLayout"
+
+    android:layout_height="match_parent">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:id="@+id/relativeLayout">   <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:layout_alignParentStart="true"
+    android:text="
+    Deactivating your profile will disable your profile and make it hidden to all people. You will not be able to send or receive a messages."
+    android:textColor="#000"
+    android:textSize="20sp"
+    android:background="#eac9c9"
+    android:textStyle="bold" />
+</RelativeLayout>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:background="@drawable/three"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:textColor="#ffff"
+        android:text="Deactive my profile"
+        android:textStyle="bold"
+        android:id="@+id/button3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:textColor="#000"
+        android:text="    Are you sure you want deactive you profile?"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/textView23" />
+
+    <Button
+    android:layout_width="200dp"
+    android:layout_height="60dp"
+    android:layout_alignStart="@+id/button3"
+    android:layout_below="@+id/textView23"
+        android:background="@drawable/two"
+    android:layout_marginTop="26dp"
+        android:textColor="#ffff"
+    android:text="No, I want to keep it open"
+    android:textStyle="bold"
+        android:id="@+id/button4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button5"
+        android:layout_alignEnd="@+id/button5"
+        android:layout_marginBottom="15dp"
+        android:textStyle="italic"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:layout_marginEnd="12dp"
+        android:text="      Why not take a break and comeback later?" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button4"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/three"
+        android:text="Logout"
+        android:textColor="#ffff"
+        android:textStyle="bold" />
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"       android:background="#20b2aa"
+
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="18dp"
+        android:text="Include Chaprone In Chats"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:id="@+id/textView13" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:layout_alignBaseline="@+id/textView13"
+        android:layout_alignBottom="@+id/textView13"
+        android:layout_marginStart="24dp"
+        android:layout_toEndOf="@+id/textView13"
+        android:text="Yes"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:id="@+id/textView14" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="18dp"
+        android:text="Include Chaprone In Chats"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView13"
+        android:layout_below="@+id/radioButton"
+        android:layout_marginTop="49dp"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:text=" If you Ticked Yes then Please Add your Guardian's Email..."
+        android:textStyle="bold"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:layout_alignBaseline="@+id/textView14"
+        android:layout_alignBottom="@+id/textView14"
+        android:layout_alignParentEnd="true"
+        android:text="No"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:id="@+id/textView15" />
+
+    <RadioButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/textView14"
+        android:layout_below="@+id/textView14"
+        android:id="@+id/radioButton" />
+
+    <RadioButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView15" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:hint="Email"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="67dp"
+        android:background="#fff" />
+</RelativeLayout>
